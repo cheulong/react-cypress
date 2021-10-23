@@ -18,6 +18,6 @@ describe('react app', () => {
   });
 
   it('displays correct text', () => {
-    cy.contains('Edit App.tsx and save to test HMR updates.').should('exist');
+    cy.contains('Hello Vite + React!').should('exist');
   });
 });
