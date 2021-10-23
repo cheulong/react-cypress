@@ -3,7 +3,8 @@
   "ignoreTestFiles": [
     "**/__snapshots__/*",
     "**/__image_snapshots__/*",
-    "**/common/**"
+    "**/common/**",
+    "**/snapshot.spec.ts"
   ],
   "testFiles": [
     "**/*.feature",
