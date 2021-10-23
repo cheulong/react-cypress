@@ -2,7 +2,12 @@
   "projectId": "916quo",
   "ignoreTestFiles": [
     "**/__snapshots__/*",
-    "**/__image_snapshots__/*"
+    "**/__image_snapshots__/*",
+    "**/common/**"
+  ],
+  "testFiles": [
+    "**/*.feature",
+    "**/*.ts"
   ],
   "env": {
     "cypress-plugin-snapshots": {
